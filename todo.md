@@ -1,0 +1,5 @@
+- on the body add css for text-wrap pretty/balance (keep `word-wrap: break-word;`?). Also add font hinting styles beside antialias that vite in its vanilla templates gives you
+- if updgrading to react 19, use react compiler and add eslint plugin for it (see react conf keynote)
+  - use react router v7 alongwith swr (see @shuding\_ tweets)
+- see if you need to use any of these new TS rules (or if they're automatically imported with current config)
+- Vite recommends additional set of eslint rules, [see readme](./README.md)
