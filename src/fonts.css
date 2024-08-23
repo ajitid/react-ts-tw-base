@@ -5,3 +5,9 @@
   font-style: normal;
   font-display: block;
 }
+
+/* taken from vite */
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
