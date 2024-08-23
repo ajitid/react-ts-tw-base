@@ -1,13 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 
-import "./fonts.css";
-import "./index.css";
+import './fonts.css'
+import './index.css'
 
-import { App } from "./components/app.tsx";
+import { App } from './components/app.tsx'
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
-);
+)

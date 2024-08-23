@@ -1,8 +1,8 @@
-import defaultTheme from "tailwindcss/defaultTheme";
+import defaultTheme from 'tailwindcss/defaultTheme'
 
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     /*
     you can use `font-[400]` instead rather specifying weights here
@@ -11,7 +11,7 @@ export default {
     },
     */
     fontFamily: {
-      sans: ["Manrope", ...defaultTheme.fontFamily.sans],
+      sans: ['Manrope', ...defaultTheme.fontFamily.sans],
       mono: defaultTheme.fontFamily.mono,
     },
     extend: {
@@ -19,4 +19,4 @@ export default {
     },
   },
   plugins: [],
-};
+}

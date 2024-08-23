@@ -8,5 +8,5 @@ export function App() {
         <h1>it works</h1>
       </main>
     </div>
-  );
+  )
 }
