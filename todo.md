@@ -2,3 +2,5 @@
   - use react router v7 alongwith swr (see @shuding\_ tweets)
 - see if you need to use any of these new TS rules (or if they're automatically imported with current config)
 - Vite recommends additional set of eslint rules, [see readme](./README.md)
+- for image loading, see https://x.com/mattrothenberg/status/1818670078570762535
+- og opengraph and twitter cards: https://www.redblobgames.com/making-of/little-things/#site-opengraph
