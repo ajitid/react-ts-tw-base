@@ -25,7 +25,14 @@
 
     /* Own */
     "forceConsistentCasingInFileNames": true,
-    "noUncheckedIndexedAccess": true
+    "noUncheckedIndexedAccess": true,
+
+    // "baseUrl": "src" // to import like 'shared/types'
+    // to import like '~/shared/types'
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    }
   },
   "include": ["src"]
 }
