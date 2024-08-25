@@ -10,3 +10,9 @@
 - dark theme no flash
   - https://github.com/ajitid/gapp/blob/main/packages/gapp-frontend/src/pages/_document.tsx#L28
   - other impl. https://www.joshwcomeau.com/react/dark-mode/
+- from https://github.com/ajitid/gapp/blob/32006cbc285ec9b3202379bf3877b5483ec743e9/packages/gapp-backend/src/services/db/types.ts#L26:
+
+```ts
+// rather than using never, we'll use this to give dev a hint of what is wrong
+type ParserError<T extends string> = { error: true } & T
+```
