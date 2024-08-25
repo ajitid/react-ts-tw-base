@@ -4,3 +4,9 @@
 - Vite recommends additional set of eslint rules, [see readme](./README.md)
 - for image loading, see https://x.com/mattrothenberg/status/1818670078570762535
 - og opengraph and twitter cards: https://www.redblobgames.com/making-of/little-things/#site-opengraph
+- see button props here
+  - https://github.com/ajitid/react-spring-v9-playground-2020/blob/master/src/elements/atoms/Button.tsx
+  - other impl. https://github.com/ajitid/gapp/blob/main/packages/gapp-frontend/src/elements/atoms/button.tsx
+- dark theme no flash
+  - https://github.com/ajitid/gapp/blob/main/packages/gapp-frontend/src/pages/_document.tsx#L28
+  - other impl. https://www.joshwcomeau.com/react/dark-mode/
