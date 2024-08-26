@@ -27,12 +27,10 @@
     "forceConsistentCasingInFileNames": true,
     "noUncheckedIndexedAccess": true,
 
-    // To import like 'shared/types', use:
-    // "baseUrl": "src"
-    // To import like '~/shared/types', use:
+    // To import stuff like '@/shared/types':
     "baseUrl": ".",
     "paths": {
-      "~/*": ["src/*"]
+      "@/*": ["src/*"]
     }
   },
   "include": ["src"]

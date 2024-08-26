@@ -3,6 +3,7 @@
 - see if you need to use any of these new TS rules (or if they're automatically imported with current config)
 - Vite recommends additional set of eslint rules, [see readme](./README.md)
 - for image loading, see https://x.com/mattrothenberg/status/1818670078570762535
+  - also see https://evanw.github.io/thumbhash/
 - og opengraph and twitter cards: https://www.redblobgames.com/making-of/little-things/#site-opengraph
 - see button props here
   - https://github.com/ajitid/react-spring-v9-playground-2020/blob/master/src/elements/atoms/Button.tsx

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 
 import './fonts.css'
 import './index.css'
+// import './debug.css';
 
 import { App } from './components/app.tsx'
 
