@@ -8,7 +8,7 @@ This project uses [PNPM](https://pnpm.io/) as its package manager. In the root o
 pnpm install
 ```
 
-to install all the dependencies.
+to install all the dependencies. If it asks you to install `only-allow`, then press 'y' and hit Enter to allow it.
 
 ## Setup VS Code
 

@@ -17,3 +17,5 @@
 // rather than using never, we'll use this to give dev a hint of what is wrong
 type ParserError<T extends string> = { error: true } & T
 ```
+
+- https://github.com/remy/unrot.link + https://github.com/microlinkhq/browserless
