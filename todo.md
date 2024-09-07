@@ -17,3 +17,9 @@
 // rather than using never, we'll use this to give dev a hint of what is wrong
 type ParserError<T extends string> = { error: true } & T
 ```
+
+- https://github.com/remy/unrot.link + https://github.com/microlinkhq/browserless
+
+- can add zustand, motion, react-router, react-aria-components, dayjs, ky, @phosphor-icons/react, ulidx or nanoid
+- for sure: https://x.com/RomaTesla | maybe https://motion-primitives.com/docs
+- @hookform/resolvers valibot react-hook-form
